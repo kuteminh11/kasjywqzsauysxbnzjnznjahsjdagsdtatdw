@@ -1,0 +1,59 @@
+
+.HomeMainLeftFix_Body
+{
+    /*border-left:solid 1px #CADCEF;
+  border-right:solid 1px #CADCEF;*/
+    /*height:225px;*/
+    float: left;
+    text-align: left;
+    width: 288px;
+}
+
+.HomeMainLeftFix_Header
+{
+    /*border-top:solid 5px #47B2E8;
+    margin-top:5px;*/
+}
+
+/*.HomeMainLeftFix_Footer_Center
+{
+    background: url('img/home_footer_center.jpg') no-repeat top;
+    width: 100%;
+    height: 17px;
+    margin-bottom:20px;
+    float:left;
+}
+.HomeMainLeftFix_Footer_Left
+{
+    background: url('img/home_footer_left.jpg') no-repeat top;
+    width: 9px;
+     height: 17px;
+     float:left;
+}
+.HomeMainLeftFix_Footer_Right
+{
+    background: url('img/home_footer_right.jpg') no-repeat top;
+    width: 6px;
+    height: 17px;
+    float:right;
+}*/
+
+.HomeMainLeftFix_Title
+{
+    color: #0066B3;
+    font-weight: bold;
+    padding-left: 10px;
+    vertical-align: middle;
+    padding-bottom: 0px;
+    height: 21px;
+    line-height: 21px;
+}
+
+    .HomeMainLeftFix_Title a
+    {
+        color: #0066B3;
+        font-weight: bold;
+        padding-left: 10px;
+        vertical-align: middle;
+        padding-bottom: 0px;
+    }

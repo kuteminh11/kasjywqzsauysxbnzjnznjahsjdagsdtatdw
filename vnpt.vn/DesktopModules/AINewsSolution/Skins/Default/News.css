@@ -1,0 +1,2583 @@
+﻿g743
+/*Khai bao chung*/
+.DetailNews span, p, font, tr, td
+{
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.DetailNews p
+{
+    margin-bottom: 10px;
+}
+/*Bat dau Search banner*/
+#searchBanner
+{
+    width: 100%;
+}
+
+.lblSearch
+{
+    font-size: 0px;
+}
+
+.txtsearch
+{
+    border: none;
+    font-weight: bold;
+    height: 18px;
+    float: left;
+    text-align: left;
+    font-size: 12px;
+}
+
+input.txtsearch
+{
+    float: none;
+    height: 14px;
+    border: none;
+    width: 100%;
+    margin-top: 1px;
+}
+
+.btSearch
+{
+    background: url(Images/BtnSearch_Img.png) no-repeat center;
+    width: 32px;
+    height: 28px;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+*html .tdButton1
+{
+}
+
+.Right_SearchBanner
+{
+    padding-top: 0px;
+    float: left;
+    display: inline;
+}
+
+.SearchBanner_ButtonSearch
+{
+    background: url(Images/BtnSearch_Img.png) no-repeat;
+    width: 67px;
+    height: 59px;
+    float: left;
+}
+
+.SearchBanner_TextBox
+{
+    width: 175px;
+    height: 24px;
+    float: left;
+    display: inline;
+    border: 1px solid #999999;
+    background: url(Images/bgtext.gif) repeat-x;
+}
+
+.SearchBanner_ChooseCate
+{
+    width: 160px;
+    height: 18px;
+    margin-top: 9px;
+    float: left;
+    display: inline;
+    margin-left: 7px;
+    border: 1px solid #0774d3;
+}
+
+.Drl_ChooseCate
+{
+    width: 100%;
+    border: none;
+    font-size: 11px;
+    height: 100%;
+}
+
+select.Drl_ChooseCate
+{
+    height: 16px;
+}
+
+.SearchBanner_BtnSearch
+{
+    float: left;
+    display: inline;
+    margin-left: 7px;
+}
+
+.SearchBanner_Advance
+{
+    float: left;
+    display: inline;
+    width: 215px;
+    height: 22px;
+}
+
+.lblTextRadio Label
+{
+    color: #054d9f;
+}
+
+.Link_SearchBanner_Advance
+{
+    float: left;
+    display: inline;
+    width: 125px;
+    height: 25px;
+    line-height: 25px;
+}
+
+    .Link_SearchBanner_Advance a
+    {
+        text-decoration: underline;
+    }
+
+.SearchBanner_RSS
+{
+    float: right;
+    display: inline;
+    width: 29px;
+    height: 16px;
+    margin-top: 8px;
+    background: url(Images/SearchHeader_RSS.png);
+}
+
+    .SearchBanner_RSS a
+    {
+        float: right;
+        display: inline;
+        width: 29px;
+        height: 16px;
+    }
+/*Ket thuc Search banner*/
+
+/*Bat dau Reference */
+.divReference
+{
+    margin-bottom: 10px;
+    border: 1px solid #abd2f6;
+}
+
+.HeadReferenceBg
+{
+    background: url(Images/HeadReference_Bg.jpg) no-repeat left top;
+    width: 100%;
+    height: 30px;
+}
+
+.IconHeadReference
+{
+    background: url(Images/Icon_HeadReference.jpg) no-repeat center;
+    float: left;
+    width: 3px;
+    height: 30px;
+    margin-left: 13px;
+    margin-right: 4px;
+}
+
+.ListReference
+{
+    background: url(Images/TitleReference_Stretch.jpg) repeat-y left;
+}
+
+    .ListReference ul
+    {
+        list-style-image: none;
+        list-style-position: outside;
+        list-style-type: none;
+        margin: 0pt;
+        padding: 0pt;
+    }
+
+    .ListReference td
+    {
+        background: url(Images/TitleReference_Bg.jpg) no-repeat left top;
+    }
+
+    .ListReference li
+    {
+        background-image: url(Images/Icon_TitleReference.jpg);
+        background-position: 5px 10px;
+        background-repeat: no-repeat;
+        padding: 3px 5px 3px 15px;
+        list-style-type: none;
+        text-align: justify;
+        float: left;
+        display: inline;
+    }
+/*NewNews*/
+
+.SubHeadNews
+{
+    float: left;
+    font-weight: bold;
+    color: #fa6218;
+    height: 30px;
+    line-height: 30px;
+}
+/*OlderNews*/
+.divOlderNews
+{
+    display: inline;
+    width: 100%;
+}
+
+.HeadOlderNews
+{
+    background: url('Images/cac_tin_khac.gif') no-repeat left;
+    width: 100%;
+    height: 29px;
+    text-align: left;
+}
+
+.TitleHeadOlderNews
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: #666666;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 25px;
+}
+
+.ListOlderNews
+{
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+    .ListOlderNews ul
+    {
+        list-style-image: none;
+        list-style-position: outside;
+        list-style-type: none;
+        margin: 0pt;
+        padding: 0pt;
+        margin-top: 1px;
+    }
+
+    .ListOlderNews li
+    {
+        padding: 3px 5px 3px 15px;
+        list-style-type: none;
+        text-align: justify;
+        float: left;
+        display: inline;
+    }
+
+.CSSRelaseLinks
+{
+    font-family: Arial;
+    line-height: 15px;
+    vertical-align: top;
+}
+
+    .CSSRelaseLinks a
+    {
+        width: 90%;
+        color: #333333;
+        font-size: 12px;
+    }
+
+.ReferenceGroup
+{
+    display: inline;
+    float: left;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.Reference
+{
+    display: inline;
+    float: left;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.tblUltility
+{
+    background-color: #f7f7f8;
+    width: 100%;
+    border-bottom: dotted 1px;
+}
+
+    .tblUltility a
+    {
+        color: #333333;
+        font-size: 12px;
+    }
+
+    .tblUltility img
+    {
+        vertical-align: middle;
+    }
+
+.leftNBD
+{
+    background: url(Images/LeftNewsByDay.jpg) no-repeat;
+    width: 21px;
+    height: 42px;
+}
+
+.centerNBD
+{
+    background: url(Images/StretchNewsByDay.jpg) repeat-x;
+    height: 42px;
+}
+
+.rightNBD
+{
+    background: url(Images/RightNewsByDay.jpg) no-repeat;
+    width: 22px;
+    height: 42px;
+}
+
+.tblNewsByDay
+{
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.lblNewsByDay
+{
+    text-align: right;
+    color: white;
+    vertical-align: baseline;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.SearchNewsByDay
+{
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    padding-left: 15px;
+    vertical-align: baseline;
+    padding-top: 7px;
+}
+
+    .SearchNewsByDay a
+    {
+        color: white;
+        font-weight: bold;
+    }
+
+.lkbtnSearch
+{
+    font-weight: bold;
+    color: #ffffff;
+    vertical-align: baseline;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+}
+
+.CommandButtonCalendar
+{
+}
+/*Ket thuc Reference */
+/*Định dạng của một tin*/
+.cls_NewsPublishedDate
+{
+    font-size: 11px;
+    font-style: italic;
+    line-height: 20px;
+    text-align: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.cls_NewsBoxImage
+{
+    padding-right: 5px;
+}
+
+.cls_NewsImage
+{
+    margin: 1px;
+    border: 1px dotted #2f63bd;
+    padding: 2px;
+}
+
+.border_NewsImage
+{
+    margin: 1px;
+    padding: 2px;
+}
+
+.cls_NewsTitle
+{
+    text-align: justify;
+}
+
+    .cls_NewsTitle a:link,
+    .cls_NewsTitle a:visited,
+    .cls_NewsTitle span
+    {
+        color: #333333;
+        font-weight: bold;
+        font-size: 16px;
+        font-family: Arial;
+    }
+
+.cls_NewsSubject
+{
+    color: #0066b3;
+    text-align: justify;
+    padding-left: 0px;
+    line-height: 18px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.cls_NewsViewCount
+{
+    font-style: italic;
+}
+
+.ccls_More
+{
+    color: Blue;
+}
+
+    .ccls_More a:link,
+    .ccls_More a:visited
+    /*Bat dau ViewHotNews*/
+    .tablehotnew
+    {
+        margin-top: 5px;
+    }
+
+.homenewsactive
+{
+    background-color: #e0fdf9;
+}
+
+.tdImageHotsNews
+{
+}
+
+.ImgHotsNews
+{
+    margin: 1px 1px 1px 1px;
+    border: none;
+    width: 50px;
+}
+
+.hotnewstitle
+{
+    padding-left: 3px;
+    text-align: left;
+    width: 100%;
+}
+
+.spantitlehotnews
+{
+    text-align: justify;
+}
+/*BatDauTopNewst*/
+.dgrTopNewsest
+{
+}
+
+.tdImageTopNewst
+{
+    width: 90px;
+    margin: 5px 5px 10px 5px;
+}
+
+.tableTopNewsthover
+{
+    background-color: #e0fdf9;
+    width: 100%;
+}
+
+.ImgTopNewst
+{
+    margin: 1px 1px 1px 1px;
+    border: none;
+}
+
+.tableTopNewst
+{
+    margin-top: 5px;
+}
+/*KetThucTopNewst*/
+
+
+/*HotNewsConfig*/
+.lblHotNewsConfig
+{
+    font-weight: bold;
+    color: #003366;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.fieldsetPopUp
+{
+    width: 96%;
+    padding: 10px;
+    text-align: center;
+}
+
+.tblMain
+{
+    width: 99%;
+    font-weight: bold;
+    border: 1px solid #d4d4d4;
+    margin: 0px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.tblMainForum
+{
+    width: 100%;
+    margin-top: 30px;
+    font-weight: bold;
+    border: 1px solid #d4d4d4;
+}
+
+.cboHotNewsConfig
+{
+    width: 100%;
+    font-weight: bold;
+}
+
+.ListHotNewsConfig
+{
+    width: 100%;
+    font-weight: bold;
+}
+/*Ket thuc ViewHotNews*/
+
+/*Bat dau Tin dac sac tren trang chu*/
+.HomeTopTitle
+{
+    font-weight: bold;
+}
+
+.Image-home-top
+{
+    width: 250px;
+    height: 195px;
+}
+
+.sapeau_box
+{
+    text-align: justify;
+}
+/*Ket thuc Tin dac sac tren trang chu*/
+
+/*Bat dau Admin*/
+.LegendHeadAdmin
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #015ad4;
+}
+
+.lblAdmin
+{
+    font-weight: bold;
+    color: #003366;
+    font-size: 12px;
+}
+
+.imgLogin
+{
+    border: 0px;
+    width: 141px;
+    height: 106px;
+}
+/*Ket thuc Admin*/
+
+/*Bat dau Popupnew*/
+
+.member1_header
+{
+    background: #cbe6ea;
+    color: #568698;
+    font-weight: bold;
+    text-align: left;
+    border: 1px solid #a3cedc;
+    padding: 2px 5px 2px 5px;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    z-index: 100;
+}
+
+.member1_body
+{
+    background: #eff7ef;
+    color: #2e5c6d;
+    text-align: justify;
+    border: 1px solid #a3cedc;
+    width: 250px;
+    padding: 5px;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    z-index: 199;
+}
+
+    .member1_body p
+    {
+        margin: 0;
+        padding: 2px 5px 5px 2px;
+    }
+
+.help1_header
+{
+    background: #ff9600;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #ff9600;
+    padding: 2px 5px 2px 5px;
+    width: 150px;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    z-index: 100;
+}
+
+.help1_body
+{
+    background: #ffffff;
+    color: #666666;
+    border-left: 1px solid #ff9600;
+    border-top: 1px solid #ff9600;
+    border-right: 1px solid #ff9600;
+    border-bottom: 1px solid #ff9600;
+    padding: 5px;
+    width: 150px;
+    text-align: justify;
+    z-index: 199;
+}
+
+    .help1_body p
+    {
+        margin: 0;
+        padding: 2px 5px 5px 2px;
+    }
+
+.title
+{
+    font-weight: bold;
+    text-align: justify;
+}
+
+.updateat
+{
+    font-style: italic;
+    text-align: justify;
+}
+
+.subject
+{
+    text-align: justify;
+}
+/*Ket thuc Popupnew*/
+
+/*Bat dau quan ly chuyen muc tin tuc*/
+.cssCatAppro
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.CsstxtTotalNews
+{
+    color: #e74c00;
+    font-weight: bold;
+}
+
+.LegendHeadNewsCategory
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.drgNewsCategory
+{
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+
+.CategoryManagement
+{
+    width: 100%;
+    border: solid 1px green;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+.lblCategory
+{
+    font-weight: bold;
+    color: #003366;
+}
+/*For Error Message*/
+.ErrorMessage
+{
+    height: 15px;
+}
+/*Ket thuc quan ly chuyen muc tin tuc*/
+
+/*Bat dau quan ly loi*/
+p.error
+{
+    background: #FFE6E6 none repeat scroll 0 0;
+    border-bottom: 1px solid #FFCCCC;
+    border-top: 1px solid #FFCCCC;
+    color: #550000;
+    font-weight: bold;
+    padding: 10px 20px 10px 10px;
+    position: relative;
+    text-align: left;
+}
+
+img.close
+{
+    cursor: pointer;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+}
+/*Ket thuc quan ly loi*/
+
+
+/*Bat dau View HomeItem*/
+.tblHomeItem
+{
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+/*HomeItemConfig*/
+.lblHomeItemConfig
+{
+    font-weight: bold;
+}
+/*Ket thuc View HomeItem*/
+/*Tạo nut khong co Icon*/
+
+/*Ket thuc tao nut khong co Icon*/
+.DCommandButtonNews_NoText
+{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+}
+
+    .DCommandButtonNews_NoText a:link,
+    .DCommandButtonNews_NoText a:hover,
+    .DCommandButtonNews_NoText a:visited
+    {
+        text-decoration: none;
+    }
+
+.DCommandButtonNews .CsslbtAdd
+{
+    background: url(Images/navigate_Next.gif) 5px center no-repeat;
+}
+
+.DCommandButtonNews .CsslbtRemove
+{
+    background: url(Images/navigate_Prev.gif) 5px center no-repeat;
+}
+
+.DCommandButtonNews .CsslbtAddAll
+{
+    background: url(Images/AllMoveRight.gif) 5px center no-repeat;
+}
+
+.DCommandButtonNews .CsslbtRemoveAll
+{
+    background: url(Images/AllMoveLeft.gif) 5px center no-repeat;
+}
+
+.DCommandButtonNews .CsslblSearchDocs
+{
+    background: url(Images/find_selection.png) 5px center no-repeat;
+}
+
+.CommandButtonNews .CsslblResetSearch
+{
+    background: url(Images/refresh.png) 5px center no-repeat;
+}
+
+a.CommandButtonNews_NoText:link span,
+a.CommandButtonNews_NoText:visited span
+{
+    background-color: #F5F5F5;
+    border-color: #EEEEEE #dedede #bfbfbf #eeeeee;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    color: #4297c0;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 30px;
+    padding: 4px 4pt 4px 5px;
+}
+
+*html a.CommandButtonNews_NoText:link span,
+*html a.CommandButtonNews_NoText:hover span,
+*html a.CommandButtonNews_NoText:visited span
+{
+    line-height: 25px;
+    padding-top: 3px;
+}
+
+a.CommandButtonNews_NoText:hover span
+{
+    background-color: #DFEEA3;
+    border: 1px solid #C6D880;
+    color: #4297c0;
+    cursor: pointer;
+    line-height: 30px;
+    padding: 4px 4pt 4px 5px;
+}
+/*Tao nut bam Them, Sua, Xoa...*/
+.DCommandButtonNews
+{
+    background-color: #fdfce9;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+}
+
+    .DCommandButtonNews a:link,
+    .DCommandButtonNews a:hover,
+    .DCommandButtonNews a:visited
+    {
+        text-decoration: none;
+    }
+
+    .DCommandButtonNews .CsslblAddNew
+    {
+        background: url(Images/document_new.gif) 5px center no-repeat;
+    }
+
+    .DCommandButtonNews .CsslblUpdate
+    {
+        background: url(Images/disk_blue.gif) 5px center no-repeat;
+    }
+
+    .DCommandButtonNews .CsslblDelete
+    {
+        background: url(Images/delete2.gif) 5px center no-repeat;
+    }
+
+    .DCommandButtonNews .CsslblBack
+    {
+        background: url(Images/BackNews.gif) 5px center no-repeat;
+    }
+
+    .DCommandButtonNews .CsslblAddandSave
+    {
+        background: url(Images/addandsave.gif) 5px center no-repeat;
+    }
+
+    .DCommandButtonNews .CsslblUpToServer
+    {
+        background: url(Images/UpToServer.gif) 5px center no-repeat;
+    }
+
+    .DCommandButtonNews .CsslblDeleteFile
+    {
+        background: url(Images/delete.gif) 5px center no-repeat;
+    }
+
+    .DCommandButtonNews .CsslblPreview
+    {
+        background: url(Images/view_next.gif) 5px center no-repeat;
+    }
+
+    .DCommandButtonNews .CsslblSearchRelateNews
+    {
+        background: url(Images/find_text.gif) 5px center no-repeat;
+    }
+
+    .DCommandButtonNews .CsslbtAdd
+    {
+        background: url(Images/navigate_down.gif) 5px center no-repeat;
+    }
+
+    .DCommandButtonNews .CsslbtAddAll
+    {
+        background: url(Images/AllMoveDown.gif) 5px center no-repeat;
+    }
+
+    .DCommandButtonNews .CsslbtRemove
+    {
+        background: url(Images/navigate_up.gif) 5px center no-repeat;
+    }
+
+    .DCommandButtonNews .CsslbtRemoveAll
+    {
+        background: url(Images/AllMoveUp.gif) 5px center no-repeat;
+    }
+
+    .DCommandButtonNews .CsslbtUpdate
+    {
+        background: url(Images/text_ok.gif) 5px center no-repeat;
+    }
+
+    .DCommandButtonNews .CsslbtCancel
+    {
+        background: url(Images/undo.gif) 5px center no-repeat;
+    }
+
+    .DCommandButtonNews .CsslblAdminSetting
+    {
+        background: url(Images/disk_blue.gif) 5px center no-repeat;
+        white-space: nowrap;
+    }
+
+a.CommandButtonNews .CsslbtAdd
+{
+    background: url(Images/document_new.gif) 5px center no-repeat;
+}
+
+a.CommandButtonNews:link span, a.CommandButtonNews:visited span
+{
+    background-color: #F5F5F5;
+    border-color: #EEEEEE #dedede #bfbfbf #eeeeee;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    color: #444444;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 30px;
+    padding: 4px 4pt 4px 25px;
+    margin-right: 6px;
+}
+
+*html a.CommandButtonNews:link span,
+*html a.CommandButtonNews:hover span,
+*html a.CommandButtonNews:visited span
+{
+    line-height: 25px;
+    padding-top: 3px;
+}
+
+a.CommandButtonNewsNoIMG:hover span
+{
+    background-color: #DFEEA3;
+    border: 1px solid #C6D880;
+    color: #444444;
+    cursor: pointer;
+    line-height: 30px;
+    padding: 4px 4pt 4px 4px;
+}
+
+a.CommandButtonNewsNoIMG:link span,
+a.CommandButtonNewsNoIMG:visited span
+{
+    background-color: #F5F5F5;
+    border-color: #EEEEEE #dedede #bfbfbf #eeeeee;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    color: #444444;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 30px;
+    padding: 4px 4pt 4px 4px;
+}
+
+*html a.CommandButtonNewsNoIMG:link span,
+*html a.CommandButtonNewsNoIMG:hover span,
+*html a.CommandButtonNewsNoIMG:visited span
+{
+    line-height: 25px;
+    padding-top: 3px;
+}
+
+a.CommandButtonNewsNoIMG:hover span
+{
+    background-color: #DFEEA3;
+    border: 1px solid #C6D880;
+    color: #444444;
+    cursor: pointer;
+    line-height: 30px;
+    padding: 4px 4pt 4px 4px;
+}
+/*NewsApprovalEditForm*/
+.DCommandButtonNewsForm
+{
+    background-color: white;
+    width: 100%;
+    height: 20px;
+}
+
+    .DCommandButtonNewsForm a:link,
+    .DCommandButtonNewsForm a:hover,
+    .DCommandButtonNewsForm a:visited
+    {
+        text-decoration: none;
+    }
+
+input.CommandButtonNewsForm
+{
+    background-image: url(Images/disk_blue.gif);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+
+button.CommandButtonNewsForm
+{
+    background-image: url(Images/undo.gif);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+
+a.CommandButtonNewsForm
+{
+    display: inline-block;
+}
+
+.CommandButtonNewsForm
+{
+    background-color: #F5F5F5;
+    border-color: #EEEEEE #dedede #bfbfbf #eeeeee;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    color: #444444;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 15px;
+    height: 15px;
+    padding: 4px 4pt 4px 25px;
+    display: inline-block;
+}
+
+.CommandButtonNewsFormhover
+{
+    background-color: #DFEEA3;
+    border: 1px solid #C6D880;
+    color: #444444;
+    cursor: pointer;
+    line-height: 30px;
+    padding: 4px 4pt 4px 25px;
+}
+
+*html.CommandButtonNewsFormhover,
+*html .CommandButtonNewsForm
+{
+    line-height: 15px;
+    padding-top: 1px;
+}
+/*AllNews and SearchResult*/
+.TopNews
+{
+    width: 100%;
+    display: inline;
+    float: left;
+    height: 24px;
+    background: url(/Images/title.jpg) no-repeat;
+}
+
+*html .TopNews
+{
+}
+
+.divHeaderProduct
+{
+    float: left;
+    display: inline;
+    margin-top: 2px;
+    margin-left: 12px;
+}
+
+.lblmainProduct
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.ContentNews
+{
+    width: 100%;
+}
+
+
+.home_title
+{
+    font-size: 13px;
+    font-weight: bold;
+    color: Black;
+}
+
+.subjectnews
+{
+    text-align: justify;
+}
+
+.morenews
+{
+    text-align: right;
+}
+
+.Subjectsearch
+{
+    text-align: justify;
+}
+/*DetailNews and PreviewDetailNew*/
+
+.DetailNewsContentnal
+{
+    width: 92%;
+    padding-right: 5px;
+}
+
+.DetailNews
+{
+    margin-left: 4%;
+}
+
+.main_date
+{
+    font-size: 12px;
+}
+
+.main_subtitle
+{
+    padding-right: 5px;
+    padding-left: 2px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    color: #000000;
+    padding-top: 2px;
+    text-decoration: none;
+}
+
+.story_headline
+{
+    color: #004a89;
+    font-weight: bold;
+    text-align: left;
+}
+
+.tblImageDetail
+{
+    margin-right: 10px;
+    margin-top: 2px;
+    height: auto;
+    padding: 2px;
+}
+
+.image_desc
+{
+    font-style: italic;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.story_teaser
+{
+    font-weight: bold;
+    color: #000000;
+    text-align: justify;
+}
+
+
+/*ApprovalNews*/
+
+.CustomGridPager
+{
+    width: 60%;
+    color: #000;
+}
+
+.ApprovalHead
+{
+    background-color: #bedaff;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.tblApproval
+{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: White;
+    text-align: center;
+    padding-left: 10px;
+    background-color: #D1E3F0;
+}
+
+.CssCategory, .CssStatus, .CssTotalNews
+{
+    font-weight: bold;
+    color: #003366;
+    margin-left: 10px;
+}
+
+.cssdatagrid
+{
+    width: 570px;
+}
+
+.lblPage
+{
+    font-weight: bold;
+}
+
+.drlType
+{
+    width: 280px;
+}
+
+.drlStatus
+{
+    margin: 0px 10px 0px 8px;
+    width: 100px;
+    height: 22px;
+}
+
+.RefreshData
+{
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.txtNewsTitle
+{
+    font-weight: bold;
+    color: #000088;
+    line-height: 15px;
+}
+/*AddEditNews*/
+.tdleftAENews
+{
+    width: 15%;
+    text-align: left;
+    padding: 3px;
+    vertical-align: top;
+}
+
+.tdrightAENews
+{
+    width: 85%;
+    padding: 3px;
+}
+
+    .tdrightAENews input,
+    .tdrightAENews select,
+    .tdrightAENews textarea
+    {
+        border: 1px solid #abcccc;
+        font-size: 12px;
+    }
+
+.Browsefile
+{
+    height: 22px;
+}
+
+.tdrightAENews select,
+.tdrightAENews textarea
+{
+    height: 17px;
+}
+
+.AddEditNews
+{
+    width: 880px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.csslblAddEditNews
+{
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.preview
+{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 250px;
+}
+
+    .preview:hover
+    {
+        background: #D1E17F none repeat scroll 0 0;
+        border-bottom: 1px solid #000000;
+    }
+
+    .preview:link
+    {
+        border-bottom: 1px solid #888888;
+        color: #000000;
+        padding: 1px 2px;
+    }
+
+
+/**/
+
+/* Start ThumbnailSettings*/
+.lblChooseWidth
+{
+    font-weight: bold;
+}
+
+.lblChooseHeight
+{
+    font-weight: bold;
+}
+/*End*/
+/*Tree*/
+/*.RadSplitter_Default .pane{border:0px solid #383838;}*/
+
+/* Phan quyen */
+.CssCateEdit
+{
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #003366;
+    text-transform: uppercase;
+    border-bottom: 3px solid;
+}
+
+.CsslblRoles
+{
+    font-weight: bold;
+    color: #003366;
+}
+/* Phan quyen Ends*/
+
+/*Search Box*/
+.LegendHead
+{
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 9pt;
+    font-weight: bold;
+}
+/*CSS for tree*/
+.RadTreeView .rtUL ul.rtUL
+{
+    padding-left: 0;
+}
+
+/*First level nodes:*/
+.RadTreeView .rtUL div
+{
+    padding-left: 20px;
+}
+
+/*Second level nodes*/
+.RadTreeView .rtUL .rtLI
+{
+    background-position: 0 0;
+}
+
+.RadTreeView .rtUL .rtUL div
+{
+    padding-left: 40px;
+    background-position: 20px 0 !important;
+}
+
+/*Third level nodes*/
+.RadTreeView .rtUL .rtUL .rtLI
+{
+    background-position: 20px 0;
+}
+
+.RadTreeView .rtUL .rtUL .rtUL div
+{
+    padding-left: 60px;
+    background-position: 40px 0 !important;
+}
+
+.RadTreeView .rtUL div.rtSelected .rtIn
+{
+    border: 0 !important;
+}
+
+.SearchBoxBG
+{
+    background: url(Images/SearchBoxBG.jpg) center no-repeat;
+    width: 420px;
+    height: 47px;
+    margin-top: 5px;
+}
+
+.SB_lnkSearch
+{
+    font-family: Arial;
+    font-size: 9pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 75px;
+}
+
+    .SB_lnkSearch a,
+    .SB_lnkSearch a:hover,
+    .SB_lnkSearch a:visited
+    {
+        text-decoration: none;
+        margin-left: 22px;
+    }
+
+.UpdateAndCancelButton
+{
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 200px;
+    text-align: center;
+}
+
+.block
+{
+    background: #FFFFFF none repeat scroll 0 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.lnkPopUp
+{
+    background: #E6E6E6 url(images/e6e6e6_40x100_textures_02_glass_75.png) repeat-x scroll 0 50%;
+    border: 1px solid #D3D3D3;
+    color: #555555;
+    cursor: pointer;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    margin: 0.5em 0 0.5em 8px;
+    padding: 0.2em 0.6em 0.3em;
+    font-family: Arial;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+    .lnkPopUp:hover
+    {
+        background: #DFEEA3 url(images/dadada_40x100_textures_02_glass_75.png) repeat-x scroll 0 50%;
+        border: 1px solid #999999;
+        color: #212121;
+        text-decoration: none;
+    }
+
+.ui-dialog-buttonpane
+{
+    padding-top: 10px;
+    bottom: 0;
+    display: block;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.dialogHolder
+{
+    background: #C1D9FF none repeat scroll 0 0;
+    padding: 5px;
+}
+
+.checklist-options-header a.buttonCheck
+{
+    background: transparent url(images/btn_b_popup_tal.jpg) repeat-x scroll left top;
+    color: #FFFFFF;
+    display: inline;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    height: 22px;
+    line-height: 22px;
+    margin: 8px 4px 8px 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+    .checklist-options-header a.buttonCheck .btn_lbg
+    {
+        background: transparent url(images/btn_b_popup_lbg.jpg) no-repeat scroll left top;
+        display: block;
+    }
+
+    .checklist-options-header a.buttonCheck .btn_rbg
+    {
+        background: transparent url(images/btn_b_popup_rbg.jpg) no-repeat scroll right top;
+        display: block;
+        padding: 0 40px;
+        text-align: center;
+    }
+
+.checklist-options-header
+{
+    height: 39px;
+    padding-right: 10px;
+}
+/*Search Advance*/
+
+.SearchAvdBG
+{
+    height: 118px;
+    padding-left: 10px;
+    background: url('Images/searchnewsbg.png') no-repeat bottom right;
+    padding-top: 11px;
+}
+
+    .SearchAvdBG p
+    {
+        height: 28px;
+        font-size: 12px;
+    }
+
+    .SearchAvdBG table tr
+    {
+        height: 28px;
+        font-size: 12px;
+    }
+
+    .SearchAvdBG .SearchNewsBt
+    {
+        background: url('Images/searchnews.gif') no-repeat;
+        width: 143px;
+        height: 38px;
+        line-height: 38px;
+        display: block;
+        vertical-align: middle;
+        color: #666666;
+        font-weight: bold;
+        font-size: 16px;
+        padding-left: 45px;
+    }
+
+.SearchAvd_lnkSearch_News
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 180px;
+    padding-left: 80px;
+    height: 100px;
+}
+
+.SearchAvd_BoxLinkSearch
+{
+    margin-top: 23px;
+    margin-left: 5px;
+    float: left;
+    display: inline;
+    background: url(Images/Btn_SearchAdvance.png) center no-repeat;
+}
+
+.SearchAvd_lnkSearch_News a
+{
+    width: 71px;
+    height: 71px;
+    float: left;
+    display: inline;
+}
+
+    .SearchAvd_lnkSearch_News a:hover,
+    .SearchAvd_lnkSearch_News a:visited
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+/*Search Result*/
+.SearchResult_BottomBorder
+{
+    background: url(images/SearchResult_BottomBorder.jpg) center top no-repeat;
+    width: 100%;
+    height: 10px;
+    border-top: 1px solid #a3cef5;
+}
+
+.SearchResults
+{
+    border: solid 1px #cdcdcd;
+}
+
+    .SearchResults #SearchResults_Info
+    {
+        background-color: #FFFFFF;
+        padding: 10px;
+        text-align: left;
+        font-size: 12px;
+    }
+
+        .SearchResults #SearchResults_Info img
+        {
+            vertical-align: middle;
+        }
+
+        .SearchResults #SearchResults_Info span
+        {
+            padding-left: 5px;
+        }
+
+.ResultItem td
+{
+    padding: 15px;
+}
+
+.ResultItem_Img
+{
+    margin: 3px 10px 5px 0;
+    float: left;
+}
+
+    .ResultItem_Img img
+    {
+        width: 150px;
+    }
+
+.ResultItem_Title
+{
+    text-align: justify;
+}
+
+    .ResultItem_Title a
+    {
+        font-size: 13px;
+        color: #0070b9;
+        font-weight: bold;
+    }
+
+.ResultItem_Time
+{
+    color: #666666;
+    font-style: italic;
+    font-size: 12px;
+    margin: 3px 0 3px 0;
+}
+
+.ResultItem_Sum
+{
+    text-align: justify;
+}
+
+    .ResultItem_Sum a
+    {
+        font-size: 12px;
+        color: #333333;
+    }
+
+/*PopUp chuyen muc tin tuc*/
+.divHolder
+{
+    background-color: #d1d1d1;
+}
+
+.diagblock
+{
+    background: #FFFFFF none repeat scroll 0 0;
+    border-top: 1px solid #A5BFFF;
+    height: 100%;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+}
+
+.divHolderPosition
+{
+    position: fixed;
+    background: #C1D9FF none repeat scroll 0 0;
+}
+
+*html .divHolderPosition
+{
+    position: absolute;
+    left: 15%;
+}
+
+.dialogHolder
+{
+    position: fixed;
+    /*left:150px;
+	 top:200px;*/
+    display: none;
+    background: #C1D9FF none repeat scroll 0 0;
+    height: auto;
+    z-index: 1000;
+}
+
+.Test
+{
+    min-width: 70px !important;
+    max-width: 1200px !important;
+    max-height: 1200px !important;
+    min-height: 70px !important;
+}
+
+.AIPagging
+{
+    width: 100%;
+}
+/*HotTopic_Forum*/
+.HotTopic_Forum_Content ul
+{
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0pt;
+    padding: 0pt;
+}
+
+.HotTopic_Forum_Content li
+{
+    background-image: url(Images/Arrow_HotTopic.jpg);
+    background-position: 5px 8px;
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 15px;
+    list-style-type: none;
+    text-align: left;
+    border-bottom: 1px dashed #302a2a;
+}
+
+    .HotTopic_Forum_Content li.lastest
+    {
+        border-bottom: none;
+        background-image: url(Images/Arrow_HotTopic.jpg);
+        background-position: 5px 8px;
+        background-repeat: no-repeat;
+        padding: 5px 5px 5px 15px;
+        list-style-type: none;
+        text-align: left;
+    }
+
+a.Link_HotTopic_Forum:link,
+a.Link_HotTopic_Forum:visited
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+a.Link_HotTopic_Forum:hover
+{
+    background: #e5f3ff;
+    border-bottom: 1px solid #DFDFDF;
+    font-weight: bold;
+}
+
+/*------------------GeneralFavourite.css cho ptth------------------------*/
+.imgBtnPlayFavourite
+{
+    behavior: url(js/iepngfix.htc);
+}
+
+.imgBtnPlayFavourite
+{
+    background: url(Images/BtnPlayFavourite.png) no-repeat;
+    width: 28px;
+    height: 28px;
+}
+
+ul, ol, dl
+{
+    list-style: none;
+}
+
+#column_big_left
+{
+    float: left;
+    width: 610px;
+    margin-left: 0px !important;
+    margin-left: 0px;
+}
+
+.vbigbox
+{
+    width: 610px;
+    background: none;
+    position: relative;
+}
+
+.hotline
+{
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 30px;
+    width: 367px;
+    padding-left: 12px;
+    color: #ee393e;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    position: relative;
+    float: left;
+    background-color: #f1f8fc;
+}
+
+.vbigbox .hotline span
+{
+    background: url(Images/bg/transh2.png) 0 50% repeat-x !important;
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Images/bg/transh2.png', sizingMethod='scale') !important;
+    position: absolute;
+    top: 0 !important;
+    top: 0px;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#hot .boxcontent
+{
+    position: relative;
+    height: 377px;
+}
+
+*html #hot #nav
+{
+    width: 225px;
+    height: 377px;
+    position: absolute;
+    bottom: 0 !important;
+    bottom: 0px;
+    top: 0px;
+    right: 1px;
+    list-style: none;
+    overflow: hidden;
+}
+
+#hot #nav
+{
+    width: 225px;
+    height: 377px;
+    position: absolute;
+    bottom: 0 !important;
+    bottom: 0px;
+    top: 0px;
+    right: 1px;
+    list-style: none;
+    overflow: hidden;
+}
+
+    #hot #nav li
+    {
+        background: #ffffff url(images/bg/mnbg.png);
+        padding: 0 5 5 0;
+        height: 57px;
+        border: 0px;
+        border-bottom: 1px solid #fff;
+    }
+
+    *html #hot #nav li
+    {
+        background: #ffffff url(images/bg/mnbg.png);
+        padding: 0 5 5 0;
+        height: 57px;
+        border: 0px;
+        border-bottom: 1px solid #fff;
+    }
+
+        #hot #nav li.hover
+        {
+            cursor: crosshair;
+        }
+
+        #hot #nav li p
+        {
+            margin: 0;
+            padding: 0;
+            text-align: left;
+            color: #000000;
+        }
+
+            #hot #nav li p a
+            {
+                font-size: 12px;
+                color: #000000;
+            }
+
+                #hot #nav li p a:hover
+                {
+                    color: #000099;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+
+        #hot #nav li .hotthumb
+        {
+            background-color: #E1E1E1;
+            border: 1px solid #FFFFFF;
+            float: left;
+            height: 56px;
+            margin-left: -3px;
+            margin-right: 5px;
+            width: 56px;
+            line-height: 56px;
+            vertical-align: middle;
+        }
+
+        #hot #nav li img.hotthumbl
+        {
+            width: 60px;
+            height: 56px;
+        }
+
+        #hot #nav li .boxhotthumbl
+        {
+            background: url(Images/SS_ImgThumnailFavouriteBG.jpg) repeat-y;
+        }
+
+        #hot #nav li img.hover
+        {
+            cursor: pointer;
+        }
+
+#hot #main
+{
+    width: 380px;
+    height: 377px;
+    position: absolute;
+    bottom: 0px !important;
+    bottom: 0;
+    left: 0px;
+    top: 0px;
+    background: #fff;
+    z-index: 0;
+    overflow: hidden;
+    padding-right: 5px;
+}
+
+    #hot #main li
+    {
+        overflow: hidden;
+        position: relative;
+        width: 380px;
+        height: 377px;
+        vertical-align: middle;
+        float: none;
+        text-align: center;
+    }
+
+        #hot #main li .hotbig
+        {
+            width: 380px;
+            height: 377px;
+            border: none;
+            z-index: -1;
+        }
+
+        #hot #main li img.hover
+        {
+            cursor: n-resize;
+        }
+
+        #hot #main li .caption
+        {
+            text-align: left;
+            width: 380px;
+            height: 75px;
+            position: absolute;
+            bottom: 0 !important;
+            bottom: -3px;
+            left: 0;
+            z-index: 5;
+            padding: 7px;
+            background: url(Images/bg/caption-trans.png);
+        }
+
+        *html #hot #main li .caption
+        {
+            text-align: left;
+            width: 380px;
+            height: 89px;
+            position: absolute;
+            bottom: 0 !important;
+            bottom: -3px;
+            left: 0;
+            z-index: 5;
+            padding: 7px;
+            background: url(Images/bg/caption-trans.png);
+        }
+
+            #hot #main li .caption p
+            {
+                margin-left: 2px;
+                color: #fff;
+            }
+
+                #hot #main li .caption p.title
+                {
+                    color: #000000;
+                    padding-left: 2px;
+                    padding-top: 16px;
+                    padding-right: 6px;
+                }
+
+                    #hot #main li .caption p.title a
+                    {
+                    }
+
+            #hot #main li .caption a
+            {
+                color: #000000;
+                font-weight: bold;
+            }
+
+                #hot #main li .caption a:hover
+                {
+                    color: #FF6600;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+
+        #hot #main li .caption
+        {
+            /*display: none; */
+        }
+
+        #hot #main li.hover .caption
+        {
+            display: block;
+        }
+
+/*------------------Het GeneralFavourite.css cho ptth------------------------*/
+
+/*------------------styles.css cho ptth------------------------*/
+a.clslinkTeacher:visited,
+a.clslinkTeacher:link
+{
+    background: url(Images/GreenTab.gif) no-repeat;
+    Width: 110px;
+    Height: 27px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    text-indent: 20px;
+    float: left;
+    display: inline;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.clslinkTeacher:hover,
+.clslinkPupil
+{
+    background: url(Images/OrangeTab.gif) no-repeat;
+    Width: 110px;
+    Height: 27px;
+    margin-top: 5px;
+    padding-top: 5px;
+    text-indent: 20px;
+    float: left;
+    display: inline;
+    clear: right;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .clslinkTeacher a:link,
+    .clslinkTeacher a:visited,
+    .clslinkTeacher a:hover,
+    .clslinkPupil a:link,
+    .clslinkPupil a:visited,
+    .clslinkPupil a:hover
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+
+.RadTabStrip_DifferentTabs ul
+{
+    /**/
+}
+
+.tabstrip li a.selected .wrap, .tabstrip li a.selected .innerWrap
+{
+    cursor: default;
+    padding-top: 0px;
+}
+
+.tabstrip li a .wrap, .tabstrip li a .innerWrap
+{
+    clear: both;
+    cursor: pointer;
+    float: left;
+    padding-top: 0px;
+    white-space: nowrap;
+    color: #8cd5b7;
+}
+
+/* different tabs begin */
+.RadTabStrip_DifferentTabs li
+{
+    background-color: transparent;
+    height: 27px;
+    color: White;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+    .RadTabStrip_DifferentTabs li a
+    {
+        height: 27px;
+        text-decoration: none;
+        color: white;
+        background-repeat: no-repeat;
+    }
+
+
+    .RadTabStrip_DifferentTabs li .wrap
+    {
+        padding-top: 10px;
+        padding-left: 3px;
+    }
+
+    .RadTabStrip_DifferentTabs li a .innerWrap
+    {
+        width: 78px;
+        display: block;
+        text-align: center;
+    }
+/*------------------Het styles.css cho ptth------------------------*/
+
+.inset-orgnew
+{
+    background: transparent;
+    margin-bottom: 5px;
+}
+
+    .inset-orgnew h1, .inset-orgnew p
+    {
+        margin: 0 10px;
+    }
+
+    .inset-orgnew h1
+    {
+        font-size: 2em;
+        color: #333;
+    }
+
+    .inset-orgnew p
+    {
+        padding-bottom: 0.5em;
+    }
+
+    .inset-orgnew .b1, .inset-orgnew .b2, .inset-orgnew .b3, .inset-orgnew .b4, .inset-orgnew .b1b, .inset-orgnew .b2b, .inset-orgnew .b3b, .inset-orgnew .b4b
+    {
+        display: block;
+        overflow: hidden;
+        font-size: 1px;
+    }
+
+    .inset-orgnew .b1, .inset-orgnew .b2, .inset-orgnew .b3, .inset-orgnew .b1b, .inset-orgnew .b2b, .inset-orgnew .b3b
+    {
+        height: 1px;
+    }
+
+    .inset-orgnew .b2, .inset-orgnew .b3, .inset-orgnew .b4, .inset-orgnew .b4b, .inset-orgnew .b3b, .inset-orgnew .b2b, .inset-orgnew .boxcontent
+    {
+        background: #ff9933;
+        border-left: 1px solid #ff9933;
+        border-right: 1px solid #ff9933;
+    }
+
+    .inset-orgnew .b1, .inset-orgnew .b1b
+    {
+        margin: 0 5px;
+        background: #ff9933;
+    }
+
+    .inset-orgnew .b2, .inset-orgnew .b2b
+    {
+        margin: 0 3px;
+        border-width: 0 2px;
+    }
+
+    .inset-orgnew .b3, .inset-orgnew .b3b
+    {
+        margin: 0 2px;
+    }
+
+    .inset-orgnew .b4, .inset-orgnew .b4b
+    {
+        height: 2px;
+        margin: 0 1px;
+    }
+
+    .inset-orgnew .boxcontent
+    {
+        display: block;
+        padding: 0px 5px 0px 5px;
+    }
+
+
+
+.News
+{
+    float: left;
+    /*width: 330px;*/
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+    .News .NewsImg a
+    {
+        float: left;
+        margin: 5px 8px 2px 0;
+    }
+
+    .News .NewsSum a
+    {
+        font-size: 12px;
+        text-align: justify;
+        color: #464646;
+    }
+
+    .News .NewsImg img
+    {
+        width: 132px;
+    }
+
+.News_BeginRow
+{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 17px;
+    margin-right: 20px;
+}
+
+.News_BeginRowFirstFull
+{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 17px;
+    margin-right: 0px;
+}
+
+.News .NewsTitle
+{
+    margin-bottom: 3px;
+}
+
+    .News .NewsTitle a
+    {
+        font-size: 12px;
+        font-weight: bold;
+        color: #464646;
+        text-align: justify;
+    }
+
+    .News .NewsTitle span
+    {
+        font-weight: normal;
+        color: #464646;
+    }
+
+.News_iconContactUs
+{
+    background: url(Images/icon_contactus.jpg) no-repeat;
+    Width: 84px;
+    Height: 86px;
+}
+
+.News_bgContactUs
+{
+    background: url(Images/bg_contactus.jpg) no-repeat;
+    Width: 618px;
+    Height: 408px;
+}
+
+.News_iconSendToFriend
+{
+    background: url(Images/icon_sendToFriend.jpg) no-repeat;
+    Width: 83px;
+    Height: 82px;
+}
+
+.News_bgSendToFriend
+{
+    background: url(Images/bg_SendToFriend.jpg) no-repeat;
+    Width: 618px;
+    Height: 390px;
+}
+
+.loader
+{
+    padding-left: 150px;
+    float: left;
+    width: 32;
+    height: 32;
+    background-repeat: no-repeat;
+    background: url(/images/ajax-loader.gif) no-repeat;
+}
+
+.ContactUs_Error
+{
+    font-size: 12px;
+    color: Red;
+}
+
+.ui-dialog .ui-dialog-title
+{
+    float: left;
+    margin: 0.1em 16px 0.2em 0;
+    font-family: Arial;
+}
+
+.SearchNewsBt
+{
+    background: url("Images/searchnews.gif") no-repeat scroll 0 0 transparent;
+    color: #666666;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 45px;
+    vertical-align: middle;
+    width: 143px;
+}
+
+
+/*NewsProcess*/
+.dgr_LBF
+{
+    background-image: url(Images/LBFHeaderBG.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 37px;
+    width: 770px;
+}
+
+tr.dgrHeader_LBF_Blue
+{
+    height: 37px;
+}
+
+td.dgrHeader_LBF_Blue
+{
+    padding: 0px;
+    background-image: url(Images/LBF_BlueTdBG.gif);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.dgrHeader_LBF_Blue td
+{
+    color: #0774D1;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dgrLBF_Blue
+{
+    border-left: 1px solid #4F93E3;
+    border-right: 1px solid #4F93E3;
+}
+
+tr.dgrItem_LBF_Blue_Alter td, tr.dgrItem_LBF_Blue td
+{
+    border-bottom: 1px dashed #969696;
+}
+
+tr.dgrItem_LBF_Blue_Alter .tbl_LBFIcon td, tr.dgrItem_LBF_Blue .tbl_LBFIcon td
+{
+    border: none;
+}
+
+tr.dgrItem_LBF_Blue_Alter
+{
+    background-color: #f9fafc;
+}
+
+    tr.dgrItem_LBF_Blue_Alter td, tr.dgrItem_LBF_Blue td
+    {
+        height: 20px;
+        color: #000000;
+        border-top: 0px solid #969696;
+        padding: 5px;
+        line-height: 18px;
+    }
+
+        tr.dgrItem_LBF_Blue_Alter td a, tr.dgrItem_LBF_Blue td a
+        {
+            text-decoration: none;
+            color: #000000;
+        }
+
+tr.dgrEditItem_LBF_Blue td, tr.dgrSelectedItem_LBF_Blue td
+{
+    background-color: #D3E4FA;
+    border-style: none;
+    height: 20px;
+    border-bottom: 1px solid #969696;
+    padding: 0px 5px;
+}
+
+    tr.dgrItem_LBF_Blue_Alter td.First, tr.dgrItem_LBF_Blue td.First, tr.dgrEditItem_LBF_Blue td.First, tr.dgrSelectedItem_LBF_Blue td.First
+    {
+        border-left: 1px solid #4F93E3;
+    }
+
+    tr.dgrItem_LBF_Blue_Alter td.Last, tr.dgrItem_LBF_Blue td.Last, tr.dgrEditItem_LBF_Blue td.Last, tr.dgrSelectedItem_LBF_Blue td.Last
+    {
+        border-left: 1px solid #4F93E3;
+        border-right: 1px solid #4F93E3;
+    }
+
+.search_border
+{
+    padding: 7px;
+    border: 1px solid #ccc;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.NewsList_Header
+{
+    background: url('Images/newslist_header.png') no-repeat bottom;
+    height: 6px;
+    width: 733px;
+}
+
+.NewsList_Content
+{
+    padding-top: 15px;
+    background: url('Images/newslist_content.png') repeat-y left;
+    width: 733px;
+}
+
+.NewsList_Footer
+{
+    background: url('Images/newslist_footer.png') no-repeat top;
+    height: 6px;
+    width: 733px;
+}
+
+.PagingTable
+{
+    border: medium none;
+    height: 33px;
+    margin-left: 3%;
+    margin-right: 1%;
+    width: 95%;
+    float:left;
+}
+
+.newlist_separator
+{
+    border-bottom: solid 1px #B6B6B6;
+    margin: 20px 20px;
+}
+
+.NewsFirst
+{
+    width: 700px;
+    line-height: 18px;
+    margin-left: 20px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+    .NewsFirst .NewsFirstTitle
+    {
+        margin-bottom: 3px;
+    }
+
+        .NewsFirst .NewsFirstTitle a
+        {
+            font-size: 12px;
+            font-weight: bold;
+            color: #464646;
+            text-align: justify;
+        }
+
+        .NewsFirst .NewsFirstTitle span
+        {
+            font-weight: normal;
+            color: #464646;
+        }
+
+    .NewsFirst .NewsFirstSum a
+    {
+        font-size: 12px;
+        text-align: justify;
+        color: #464646;
+    }
+
+    .NewsFirst .NewsFirstImg a
+    {
+        float: left;
+        margin: 5px 8px 2px 0;
+    }
+
+    .NewsFirst .NewsFirstImg img
+    {
+        width: 160px;
+    }
+
+    .NewsFirst .newfirst_separator
+    {
+        border-bottom: solid 1px #0166B4;
+        margin: 15px 0px 15px 0px;
+    }
+
+.viewDetail
+{
+    text-align: right;
+    padding-top: 10px;
+}
+
+    .viewDetail a
+    {
+        font-size: 12px;
+        color: #333;
+        font-weight: bold;
+        line-height: 9px;
+    }
+
+.LeftPane
+{
+    float: left;
+    padding-right: 15px;
+}
+
+.ultility_style
+{
+    height: 30px;
+    vertical-align: middle;
+}
+
+.tblUltility
+{
+    margin-top: 15px;
+    width: 92%;
+    margin-left: 4%;
+}

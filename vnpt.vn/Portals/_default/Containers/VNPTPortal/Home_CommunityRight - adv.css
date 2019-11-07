@@ -1,0 +1,26 @@
+.HomeComunityRight_Header
+{
+    display: table-row;
+    width: 280px;
+	text-align:left;
+}
+.HomeComunityRight_Header img
+{
+    /*margin-left: 17px;*/
+    float: left;
+}
+.HomeComunityRight_Title,
+.HomeComunityRight_Title a
+{
+    color: #0066b3;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 0;
+}
+.HomeComunityRight_Content
+{
+    font-size: 12px;
+    display: table-row;
+    width: 280px;
+}

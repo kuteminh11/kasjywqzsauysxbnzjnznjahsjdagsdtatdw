@@ -1,0 +1,271 @@
+.radmenu
+{
+    white-space: inherit;
+}
+.AIMenus_VerticalMenuNLevel_ViewContent
+{
+    margin: 0px;
+    display: block;
+}
+.RadMenu_MainDiv
+{
+    float: left;
+    text-align: left;
+}
+.RadMenu_IPC_TOP
+{
+	font-size:12px;
+	font-family:Arial;
+	width: 957px;
+	float: left;
+	height:31px;
+	margin:0px;
+}
+.RadMenu_IPC_TOP .rootGroup 
+{
+	/*background: transparent url(Img/stripe.gif) right top repeat-y;
+*/
+	
+}
+
+.RadMenu_IPC_TOP .first .link
+{ 
+     /*background: url('Img/leftbg_menu3_first.png') no-repeat left;*/
+	
+}
+.RadMenu_IPC_TOP .last .link span
+{
+     /*background: url('Img/rightbg_menu3_last.png') no-repeat right;*/
+    display: inline-block;
+}
+
+.RadMenu_IPC_TOP .link
+{ 
+     /*background: url('Img/leftbg_menu3.png') no-repeat left;*/
+	
+}
+.RadMenu_IPC_TOP .link span
+{
+     /*background: url('Img/rightbg_menu3.png') no-repeat right;*/
+    display: inline-block;
+}
+.RadMenu_IPC_TOP .rootGroup .item
+{
+	padding:0;
+}
+.RadMenu_IPC_TOP .rootGroup .last
+{
+	padding-left:0px;
+	padding-right:0px;
+	border:none;
+}
+.RadMenu_IPC_TOP .link
+{
+    line-height: 31px;
+    padding-left: 11px;
+}
+.RadMenu_IPC_TOP .link span
+{
+    line-height: 31px;
+    padding-right: 10px;
+}
+.RadMenu_IPC_TOP .link span:hover
+{
+    /*background: url('Img/rightbg_menu3_hover.png') no-repeat right;*/
+    display: inline-block;
+}
+.RadMenu_IPC_TOP .link
+{
+	color:#525252;
+	text-decoration:none;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.RadMenu_IPC_TOP .first .link:hover,
+.RadMenu_IPC_TOP .first .expanded,
+.RadMenu_IPC_TOP .first .active
+{ 
+     /*background: url('Img/leftbg_menu3_hover_first.png') no-repeat left;*/
+	
+}
+.RadMenu_IPC_TOP .last .link:hover span,
+.RadMenu_IPC_TOP .last .expanded span,
+.RadMenu_IPC_TOP .last .active span
+{
+     /*background: url('Img/rightbg_menu3_hover_last.png') no-repeat right;*/
+    display: inline-block;
+}
+
+
+.RadMenu_IPC_TOP .link:hover,
+.RadMenu_IPC_TOP .expanded
+{
+	color:#0066b3;
+	background: url('Img/leftbg_menu3_hover.png') no-repeat left;
+}
+.RadMenu_IPC_TOP .active,
+.RadMenu_IPC_TOP .expanded
+{
+	color:#0066b3;
+	background: url('Img/leftbg_menu3_hover.png') no-repeat left;
+}
+.RadMenu_IPC_TOP .expanded span
+{
+	background: url('Img/rightbg_menu3_hover.png') no-repeat right;
+}
+
+.TopMenu_Hover
+{
+    /*background: url('Img/menu_blue_r.png') no-repeat right !important;*/
+    background-color: #FFFFFF;
+    display: inline-block;
+}
+
+.RadMenu_IPC_TOP .link:hover
+{
+	color:#0066b3;
+	cursor:pointer;
+	text-decoration:none;
+	background: url('Img/leftbg_menu3_hover.png') no-repeat left;
+}
+.RadMenu_IPC_TOP .active{
+
+	color:#0066b3;
+	cursor:pointer;
+	text-decoration:none;
+	background: url('Img/leftbg_menu3_hover.png') no-repeat left;
+}
+.RadMenu_IPC_TOP .link:hover span
+{
+	background: url('Img/rightbg_menu3_hover.png') no-repeat right;
+}
+.RadMenu_IPC_TOP .active span
+{
+	color:#0066b3;
+	background: url('Img/rightbg_menu3_hover.png') no-repeat right;
+}
+
+
+.RadMenu_IPC_TOP .rootGroup .disabled:hover
+{
+	background: none;
+	border-top:0;
+	BORDER-LEFT:0;
+	border-right:0;
+	margin-left: 0;
+	margin-right:0;
+	margin-top:1px;
+}
+
+.RadMenu_IPC_TOP .group .item
+{
+	background: #f4f4f4 url(Img/itemBkg.gif) left top repeat-y;
+	border-left:1px solid #D5D5D5;
+	border-right:1px solid #A6A6A6;
+	padding:0;
+	border-bottom:1px solid #DFDFDF;
+}
+
+
+.RadMenu_IPC_TOP .group .link,
+.RadMenu_IPC_TOP .group .link:hover,
+.RadMenu_IPC_TOP .group .expanded,
+.RadMenu_IPC_TOP .group .expanded:hover
+{
+	margin:0;
+	border:0;
+	border-top:1px solid white;	
+	min-width:205px;
+	_width:205px;
+	padding:0;
+	color: #333333;
+	background: #f4f4f4;
+}
+
+.RadMenu_IPC_TOP .group .link span
+{
+    background: #f4f4f4;
+    border: none;
+}
+
+.RadMenu_IPC_TOP .group .link:hover,
+.RadMenu_IPC_TOP .group .link:hover span
+{
+    background: #0066b3;
+    color: #FFFFFF;
+}
+
+.RadMenu_IPC_TOP .group .text
+{
+	padding-left:20px;
+	margin-right:20px;
+}
+
+.RadMenu_IPC_TOP .group .first .link,
+.RadMenu_IPC_TOP .group .first .link:hover,
+.RadMenu_IPC_TOP .group .first .expanded,
+.RadMenu_IPC_TOP .group .first .expanded:hover
+{
+	border-top:0;
+}
+
+
+.RadMenu_IPC_TOP ul.group 
+{
+	padding-bottom:20px;
+	background:transparent url(img/groupBkg.gif) 0px bottom no-repeat;
+	padding-left:0px;
+}
+
+.RadMenu_IPC_TOP ul.group .item .link
+{
+	line-height: 27px;
+}
+
+.RadMenu_IPC_TOP ul.group .level2
+{
+	padding-left:0px;
+	background:transparent url(img/groupBkg.gif) 0px bottom no-repeat;
+}
+
+.RadMenu_IPC_TOP .text
+{
+	padding-top:0px;
+	padding-bottom:0px;
+	display:block;
+}
+
+.RadMenu_IPC_TOP .level2 li.first
+{
+	/*background:transparent url(img/firstItemBkg.gif) 0px top no-repeat;	
+	padding-top:10px;*/
+}
+
+
+.RadMenu_IPC_TOP .level2 li.first .link
+{
+	background: #f4f4f4 url(Img/itemBkg.gif) left top repeat-y;
+}
+
+
+.RadMenu_IPC_TOP .group .link .expandLeft
+{
+	background:transparent url(img/arrow.gif) right center no-repeat;	
+}
+
+.RadMenu_IPC_TOP .group .link:hover .expandLeft
+{
+	/*background:transparent url(img/arrowHover.gif) right center no-repeat;	*/
+}
+
+.RadMenu_IPC_TOP .vertical .separator .text
+{
+	padding-top:3px;
+	font-size:1px;
+	line-height:1px;
+}
+/* NHVINH hidden menu tin tuc trong Menu Tin tuc o Menu ngang */
+#dnn_ctr400_View_rdMenu_m2_m0 {
+  display: none;
+}
